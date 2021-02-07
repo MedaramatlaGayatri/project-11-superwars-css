@@ -2,3 +2,46 @@
   margin-left : 80px;
   font-size : 18px;
 }
+.container{
+  display:flex;
+  justify-content: center;
+  grid-template-columns: 1fr, 1fr, 2fr, 1fr, 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1em;
+  padding-bottom: 20em;
+}
+.box1{
+  border: solid gray;
+  border-radius: 15px;
+  text-align: center;
+  padding-top:10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.box2{
+  border: solid gray;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 0%;
+}
+.scoreboard{
+   text-align: center;
+  width:25%;
+  padding: 10px;
+  padding-bottom: 0%;
+}
+.box4{
+  border: solid gray;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 0%;
+}
+.box5{
+  border: solid gray;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 0%;
+}
